@@ -22,3 +22,7 @@ In summary, the code will need to read the CSV file, transform it into a DataFra
 Below is the dashboard that I created with the cleaned dataset:  
 [Link to Interactive Dashboard](https://public.tableau.com/app/profile/douglas1371/viz/BlogMeArticleAnalysis_16874562939960/BlogMeNewsDashboard)
 ![BlogMe News Dashboard](https://github.com/TupperwareBox/DataAnalyticsShowcase/blob/main/BlogMe/BlogMe%20News%20Dashboard.png)
+
+This project was part of a Data Analysis Bootcamp and contrbuted to the following certificate:
+![Certificate of Completion](https://github.com/TupperwareBox/DataAnalyticsShowcase/blob/main/Bootcamp%20Certificate.jpg)
+
