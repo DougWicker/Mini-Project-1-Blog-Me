@@ -1,8 +1,24 @@
 # Mini Project 1 - BlogMe
-This mini project focuses on sentiment and keyword analysis for Blog Me, a blogging website.
 
 #### Project brief:
-The project bried was as follows: BlogMe, a famous blogging business has a dataset of news articles that they need further analysis on. Firstly, they’d like keywords to be extracted from headlines of the article. Secondly, they would need to determine the sentiment of the news articles. The data is in an excel sheet and they would like to see a dashboard outlying sentiment, top articles etc.
+The project brief was as follows: BlogMe, a famous blogging business has a dataset of news articles that they need further analysis on. Firstly, they’d like keywords to be extracted from headlines of the article. Secondly, they would need to determine the sentiment of the news articles. The data is in an excel sheet and they would like to see a dashboard outlying sentiment, top articles etc.
 
-#### How:
-I used a Natural Language Processing Library called Vader in Python to perform sentiment analysis. After extracting the data to Tableau, I performed Tableau joins, worked with sets and context filtering, and created an interactive dashboard.
+___
+
+In order to satisfy the project brief, I will need to process and manipulate the dataset using the pandas library in Python, use a Natural Language Processing library called 'Vader' to perform sentiment analysis, and finally extracting the data to Tableau and create an interactive dashboard.
+
+Here's a summary of what my Python code will need to do:
+
+1. Import the necessary libraries and classes: pandas and SentimentIntensityAnalyzer from vaderSentiment.vaderSentiment.
+2. Read an Excel data source file named and store the data in a DataFrame.
+3. Generate summary statistics and determine metrics such as the number of articles by source and the number of reactions by publisher using groupby operations.
+4. Perform any required wrangling / cleaning of the dataset.
+5.  Flag articles based ona keyword.
+6.  Use sentiment analysis to analyse the sentiment of the article headers to determine how positive, neutral or negative they are.
+7.  Output the cleaned data ready to import into Tableau
+
+In summary, the code will need to read the CSV file, transform it into a DataFrame, clean and wrangle the data and perform sentiment analysis, and export the modified data frame to a CSV file.
+
+Below is the dashboard that I created with the cleaned dataset:  
+[Link to Interactive Dashboard](https://public.tableau.com/app/profile/douglas1371/viz/BlogMeArticleAnalysis_16874562939960/BlogMeNewsDashboard)
+![BlogMe News Dashboard](https://github.com/TupperwareBox/DataAnalyticsShowcase/blob/main/BlogMe/BlogMe%20News%20Dashboard.png)
